@@ -1,8 +1,8 @@
-package com.collabnet.collabcore.service;
+package com.collab.collabapi.service;
 
 import java.util.List;
 
-import com.collabnet.collabcore.model.Person;
+import com.collab.collabapi.model.Person;
 
 public interface PersonService {
 

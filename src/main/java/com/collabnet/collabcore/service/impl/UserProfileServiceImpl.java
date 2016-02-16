@@ -1,4 +1,4 @@
-package com.collabnet.collabcore.service.impl;
+package com.collab.collabapi.service.impl;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.collabnet.collabcore.dao.PersonDAO;
-import com.collabnet.collabcore.dao.UserProfileDAO;
-import com.collabnet.collabcore.model.Person;
-import com.collabnet.collabcore.model.UserProfile;
-import com.collabnet.collabcore.service.UserProfileService;
+import com.collab.collabapi.dao.PersonDAO;
+import com.collab.collabapi.dao.UserProfileDAO;
+import com.collab.collabapi.model.Person;
+import com.collab.collabapi.model.UserProfile;
+import com.collab.collabapi.service.UserProfileService;
 
 @Service
 public class UserProfileServiceImpl implements UserProfileService {

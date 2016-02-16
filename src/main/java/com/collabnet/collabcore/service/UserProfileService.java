@@ -1,8 +1,8 @@
-package com.collabnet.collabcore.service;
+package com.collab.collabapi.service;
 
 import java.util.List;
 
-import com.collabnet.collabcore.model.UserProfile;
+import com.collab.collabapi.model.UserProfile;
 
 public interface UserProfileService {
 

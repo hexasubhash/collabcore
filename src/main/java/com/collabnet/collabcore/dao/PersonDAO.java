@@ -1,8 +1,8 @@
-package com.collabnet.collabcore.dao;
+package com.collab.collabapi.dao;
 
 import java.util.List;
 
-import com.collabnet.collabcore.model.Person;
+import com.collab.collabapi.model.Person;
 
 public interface PersonDAO {
 

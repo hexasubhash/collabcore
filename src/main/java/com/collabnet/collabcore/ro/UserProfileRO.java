@@ -1,4 +1,4 @@
-package com.collabnet.collabcore.ro;
+package com.collab.collabapi.ro;
 
 import java.sql.Date;
 

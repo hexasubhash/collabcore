@@ -1,4 +1,4 @@
-package com.collabnet.collabcore;
+package com.collab.collabapi;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.collabnet.collabcore.model.Person;
-import com.collabnet.collabcore.service.PersonService;
+import com.collab.collabapi.model.Person;
+import com.collab.collabapi.service.PersonService;
 
 @Controller
 public class PersonController {

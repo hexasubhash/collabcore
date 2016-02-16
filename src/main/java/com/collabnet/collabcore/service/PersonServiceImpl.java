@@ -1,12 +1,12 @@
-package com.collabnet.collabcore.service;
+package com.collab.collabapi.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.collabnet.collabcore.dao.PersonDAO;
-import com.collabnet.collabcore.model.Person;
+import com.collab.collabapi.dao.PersonDAO;
+import com.collab.collabapi.model.Person;
 
 @Service
 public class PersonServiceImpl implements PersonService {

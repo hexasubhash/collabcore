@@ -1,4 +1,4 @@
-package com.collabnet.collabcore.dao;
+package com.collab.collabapi.dao;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-import com.collabnet.collabcore.model.Person;
+import com.collab.collabapi.model.Person;
 
 @Repository
 public class PersonDAOImpl implements PersonDAO {

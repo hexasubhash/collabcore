@@ -1,4 +1,4 @@
-package com.collabnet.collabcore.dao.impl;
+package com.collab.collabapi.dao.impl;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.collabnet.collabcore.dao.UserProfileDAO;
-import com.collabnet.collabcore.model.UserProfile;
+import com.collab.collabapi.dao.UserProfileDAO;
+import com.collab.collabapi.model.UserProfile;
 
 @Repository
 public class UserProfileDAOImpl implements UserProfileDAO {

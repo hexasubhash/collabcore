@@ -1,4 +1,4 @@
-package com.collabnet.collabcore.model;
+package com.collab.collabapi.model;
 
 import java.sql.Date;
 
